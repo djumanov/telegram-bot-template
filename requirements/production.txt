@@ -1,0 +1,39 @@
+# Telegram Bot
+python-telegram-bot==13.15
+
+# Database
+SQLAlchemy==2.0.23
+alembic==1.13.1
+
+# Environment
+python-dotenv==1.0.0
+
+# Utilities
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Localization
+babel==2.14.0
+
+# Logging
+python-json-logger==2.0.7
+
+# Redis (optional - for caching)
+redis==5.0.1
+
+# Celery (optional - for background tasks)
+celery==5.3.4
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code Quality
+black==23.12.1
+flake8==6.1.0
+pylint==3.0.3
+mypy==1.7.1
+
+# Development
+ipython==8.18.1

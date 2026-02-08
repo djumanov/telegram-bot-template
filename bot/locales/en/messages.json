@@ -1,0 +1,97 @@
+{
+  "language_name": "English",
+  "language_code": "en",
+  
+  "buttons": {
+    "back": "◀️ Back",
+    "cancel": "❌ Cancel",
+    "confirm": "✅ Confirm",
+    "next": "➡️ Next",
+    "skip": "⏭ Skip",
+    "menu": "📋 Menu"
+  },
+  
+  "menu": {
+    "main": "📋 Main Menu",
+    "statistics": "📊 Statistics",
+    "settings": "⚙️ Settings",
+    "help": "ℹ️ Help",
+    "profile": "👤 Profile",
+    "admin": "👨‍💼 Admin Panel"
+  },
+  
+  "commands": {
+    "start": {
+      "description": "Start the bot",
+      "message": "👋 Welcome, {name}!\n\nI'm a professional bot ready to help you.\n\n💡 Use /help to get started."
+    },
+    "help": {
+      "description": "Help",
+      "message": "📚 Help Section:\n\n🔹 Main commands:\n/start - Start the bot\n/help - Help\n/menu - Menu\n/settings - Settings\n/profile - Profile\n\n💡 If you have questions, use /support."
+    },
+    "menu": {
+      "description": "Main menu",
+      "message": "📋 Main Menu"
+    },
+    "settings": {
+      "description": "Settings",
+      "message": "⚙️ Settings"
+    },
+    "profile": {
+      "description": "Profile",
+      "message": "👤 Profile"
+    },
+    "admin": {
+      "description": "Admin panel",
+      "message": "👨‍💼 Admin Panel"
+    }
+  },
+  
+  "settings": {
+    "title": "⚙️ Settings",
+    "language": "🌐 Language",
+    "notifications": "🔔 Notifications",
+    "language_changed": "✅ Language changed: {language}",
+    "notifications_enabled": "✅ Notifications enabled",
+    "notifications_disabled": "🔕 Notifications disabled"
+  },
+  
+  "profile": {
+    "title": "👤 Profile",
+    "info": "📌 Information:\n\nName: {name}\nUsername: {username}\nID: {user_id}\nLanguage: {language}\nRegistered: {created_at}\nStatus: {status}"
+  },
+  
+  "admin": {
+    "title": "👨‍💼 Admin Panel",
+    "statistics": "📊 Statistics",
+    "users": "👥 Users",
+    "broadcast": "📨 Broadcast",
+    "stats_message": "📊 Statistics:\n\n👥 Total users: {total_users}\n✅ Active: {active_users}\n💬 Total messages: {total_messages}",
+    "broadcast_start": "📨 Enter the message to broadcast to all users:",
+    "broadcast_confirm": "📨 Send message to {count} users?",
+    "broadcast_success": "✅ Broadcast completed:\n\nSuccess: {success}\nFailed: {failed}",
+    "broadcast_cancelled": "❌ Broadcast cancelled"
+  },
+  
+  "errors": {
+    "generic": "❌ An error occurred. Please try again.",
+    "permission_denied": "⛔️ You don't have permission to perform this action.",
+    "not_found": "❌ Not found.",
+    "user_blocked": "⛔️ You are blocked.",
+    "invalid_input": "❌ Invalid input provided.",
+    "timeout": "⏱ Timeout. Please start over."
+  },
+  
+  "success": {
+    "saved": "✅ Saved.",
+    "deleted": "✅ Deleted.",
+    "updated": "✅ Updated.",
+    "sent": "✅ Sent."
+  },
+  
+  "info": {
+    "processing": "⏳ Processing...",
+    "loading": "⏳ Loading...",
+    "cancelled": "❌ Cancelled."
+  }
+}

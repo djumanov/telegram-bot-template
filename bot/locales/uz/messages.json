@@ -1,0 +1,97 @@
+{
+  "language_name": "O'zbekcha",
+  "language_code": "uz",
+  
+  "buttons": {
+    "back": "◀️ Orqaga",
+    "cancel": "❌ Bekor qilish",
+    "confirm": "✅ Tasdiqlash",
+    "next": "➡️ Keyingi",
+    "skip": "⏭ O'tkazib yuborish",
+    "menu": "📋 Menyu"
+  },
+  
+  "menu": {
+    "main": "📋 Asosiy menyu",
+    "statistics": "📊 Statistika",
+    "settings": "⚙️ Sozlamalar",
+    "help": "ℹ️ Yordam",
+    "profile": "👤 Profil",
+    "admin": "👨‍💼 Admin panel"
+  },
+  
+  "commands": {
+    "start": {
+      "description": "Botni ishga tushirish",
+      "message": "👋 Xush kelibsiz, {name}!\n\nMen professional bot bo'lib, sizga yordam berishga tayyorman.\n\n💡 Boshlash uchun /help buyrug'idan foydalaning."
+    },
+    "help": {
+      "description": "Yordam",
+      "message": "📚 Yordam bo'limi:\n\n🔹 Asosiy buyruqlar:\n/start - Botni ishga tushirish\n/help - Yordam\n/menu - Menyu\n/settings - Sozlamalar\n/profile - Profil\n\n💡 Savollaringiz bo'lsa, /support buyrug'idan foydalaning."
+    },
+    "menu": {
+      "description": "Asosiy menyu",
+      "message": "📋 Asosiy menyu"
+    },
+    "settings": {
+      "description": "Sozlamalar",
+      "message": "⚙️ Sozlamalar"
+    },
+    "profile": {
+      "description": "Profil",
+      "message": "👤 Profil"
+    },
+    "admin": {
+      "description": "Admin panel",
+      "message": "👨‍💼 Admin panel"
+    }
+  },
+  
+  "settings": {
+    "title": "⚙️ Sozlamalar",
+    "language": "🌐 Til",
+    "notifications": "🔔 Bildirishnomalar",
+    "language_changed": "✅ Til o'zgartirildi: {language}",
+    "notifications_enabled": "✅ Bildirishnomalar yoqildi",
+    "notifications_disabled": "🔕 Bildirishnomalar o'chirildi"
+  },
+  
+  "profile": {
+    "title": "👤 Profil",
+    "info": "📌 Ma'lumotlar:\n\nIsm: {name}\nUsername: {username}\nID: {user_id}\nTil: {language}\nRo'yxatdan o'tgan: {created_at}\nStatus: {status}"
+  },
+  
+  "admin": {
+    "title": "👨‍💼 Admin Panel",
+    "statistics": "📊 Statistika",
+    "users": "👥 Foydalanuvchilar",
+    "broadcast": "📨 Xabar yuborish",
+    "stats_message": "📊 Statistika:\n\n👥 Jami foydalanuvchilar: {total_users}\n✅ Aktiv: {active_users}\n💬 Jami xabarlar: {total_messages}",
+    "broadcast_start": "📨 Barcha foydalanuvchilarga yubormoqchi bo'lgan xabaringizni yozing:",
+    "broadcast_confirm": "📨 {count} ta foydalanuvchiga xabar yuborilsinmi?",
+    "broadcast_success": "✅ Xabar yuborildi:\n\nMuvaffaqiyatli: {success}\nXatolik: {failed}",
+    "broadcast_cancelled": "❌ Xabar yuborish bekor qilindi"
+  },
+  
+  "errors": {
+    "generic": "❌ Xatolik yuz berdi. Qaytadan urinib ko'ring.",
+    "permission_denied": "⛔️ Sizda bu amalni bajarish uchun ruxsat yo'q.",
+    "not_found": "❌ Topilmadi.",
+    "user_blocked": "⛔️ Siz bloklangansiz.",
+    "invalid_input": "❌ Noto'g'ri ma'lumot kiritildi.",
+    "timeout": "⏱ Vaqt tugadi. Qaytadan boshlang."
+  },
+  
+  "success": {
+    "saved": "✅ Saqlandi.",
+    "deleted": "✅ O'chirildi.",
+    "updated": "✅ Yangilandi.",
+    "sent": "✅ Yuborildi."
+  },
+  
+  "info": {
+    "processing": "⏳ Qayta ishlanmoqda...",
+    "loading": "⏳ Yuklanmoqda...",
+    "cancelled": "❌ Bekor qilindi."
+  }
+}
